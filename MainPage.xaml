@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage Title="Welcome" xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ProiectMobile"
+             x:Class="ProiectMobile.MainPage">
+
+    <StackLayout>        
+        <Label Text="Welcome to my application"
+              HorizontalOptions="CenterAndExpand"
+              VerticalOptions="CenterAndExpand"/>
+
+        <Button Text="View DbUsers"
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="CenterAndExpand"
+                BackgroundColor="Aqua"
+                TextColor="White"
+                Clicked="GoToSqLiteDB"/>
+        
+        <Button Text="View API Users"
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="CenterAndExpand"
+                BackgroundColor="Aqua"
+                TextColor="White"
+                Clicked="ViewAPI"/>
+    </StackLayout>
+    
+
+</ContentPage>
